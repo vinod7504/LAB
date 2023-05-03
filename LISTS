@@ -1,0 +1,38 @@
+Sorting of the list
+#descending order
+a=[1,4,8,5,0]
+for i in range(0,len(a)):
+    for j in range(i+1,len(a)):
+        if(a[i]<a[j]):
+            k=a[i]
+            a[i]=a[j]
+            a[j]=k
+print("After sorting the elements are",a)
+
+#ascending order
+a=[1,4,8,5,0]
+for i in range(0,len(a)):
+    for j in range(i+1,len(a)):
+        if(a[i]>a[j]):
+            k=a[i]
+            a[i]=a[j]
+            a[j]=k
+print("After sorting the elements are",a)
+
+#checking for a number
+a=[1,2,3,4,5]
+for i in range(len(a)):
+   if(a[i]==4):
+       c=c+1
+if(c==1):
+     print("It is present")
+else:
+     print("It is not present")
+     
+     
+#sum of elements in the list
+a=[1,2,3,4,5]
+total=0
+for i in range(0,len(a)):
+     total=total+a[i]
+print(total)
