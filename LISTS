@@ -36,3 +36,20 @@ total=0
 for i in range(0,len(a)):
      total=total+a[i]
 print(total)
+
+
+#common element
+a=[1,4,8,5,0,1,4,6]
+for i in range(0,len(a)):
+    for j in range(i+1,len(a)):
+        if(a[i]>a[j]):
+            k=a[i]
+            a[i]=a[j]
+            a[j]=k
+print("After sorting the elements are",a)
+
+for i in range(0,len(a)):
+    for j in range(i+1,len(a)):
+        if(a[i]==a[j]):
+            print("The element repeating")
+            print("The repeating element is ",a[i])
