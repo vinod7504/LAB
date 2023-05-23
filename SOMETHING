@@ -10,3 +10,12 @@ IMPORTING OF CURRENT TIME
 import time
 x=time.ctime()
 print(x)
+
+IMPORTING OF A RANDOM TIME
+
+import time
+t=(2022,12,4,8,44,4,1,362,0)
+x=time.asctime(t)
+print(x)
+
+OUTPUT: Tues dec 4 08:44:4    
