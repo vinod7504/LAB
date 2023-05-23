@@ -19,3 +19,15 @@ x=time.asctime(t)
 print(x)
 
 OUTPUT: Tues dec 4 08:44:4    
+
+
+TO PRINT THE MORNING OR AFTERNOON
+
+import datetime as dt
+x=dt.datetime.now()
+y=x.hour
+print(y)
+if(y>12):
+    print("Good afternoon")
+else:
+    print("Good Morning")
