@@ -1,0 +1,6 @@
+IMPORTING AFTER A WHILE
+
+import time
+print("Immdetialey")
+time.sleep(2)
+print("After 2 sec")
