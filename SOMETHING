@@ -4,3 +4,9 @@ import time
 print("Immdetialey")
 time.sleep(2)
 print("After 2 sec")
+
+IMPORTING OF CURRENT TIME
+
+import time
+x=time.ctime()
+print(x)
